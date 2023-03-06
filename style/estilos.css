@@ -14,7 +14,13 @@ ul{
     padding: 10px;
 }
 
-.button{
+.logo{
+    height: 50px;
+}
+
+.mainButton {
+    background-color: green;
+    color: rgb(243, 245, 113);
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
@@ -43,3 +49,4 @@ ul{
 .secondaryButton:hover{
     box-shadow: 2px 2px rgb(56, 3, 3);
 }
+
