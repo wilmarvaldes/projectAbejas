@@ -14,14 +14,51 @@ ul{
     padding: 10px;
 }
 
+
 .buscar{
     background-color: rgb(165, 243, 217);
     border: 1px solid gray;
     padding: 4px;
+
+.logo{
+    height: 50px;
+}
+
+.mainButton {
+    background-color: green;
+    color: rgb(243, 245, 113);
+    border: 0px;
+    padding: 5px 10px;
+
     border-radius: 8px;
     font-weight: bolder;
 }
 
+
 .buscar:focus-within{
     border: 1px solid blue;
 }
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.mainButton {
+    background-color: green;
+    color: rgb(243, 245, 113);
+    
+    
+}
+.mainButton:hover{
+    box-shadow: 2px 2px rgb(102, 2, 2);
+}
+
+.secondaryButton {
+    background-color: rgb(16, 68, 75);
+    color: rgb(243, 245, 113);
+    
+}
+.secondaryButton:hover{
+    box-shadow: 2px 2px rgb(56, 3, 3);
+}
+
