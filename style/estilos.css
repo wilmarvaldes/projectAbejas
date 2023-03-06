@@ -14,6 +14,12 @@ ul{
     padding: 10px;
 }
 
+
+.buscar{
+    background-color: rgb(165, 243, 217);
+    border: 1px solid gray;
+    padding: 4px;
+
 .logo{
     height: 50px;
 }
@@ -23,8 +29,14 @@ ul{
     color: rgb(243, 245, 113);
     border: 0px;
     padding: 5px 10px;
+
     border-radius: 8px;
     font-weight: bolder;
+}
+
+
+.buscar:focus-within{
+    border: 1px solid blue;
 }
 
 .button:hover{
